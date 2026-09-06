@@ -1,7 +1,7 @@
 // Small helper for talking to the AirIndex India backend.
 // Backend must be running (npm start inside airindex-backend) on port 5000.
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://airindex-backend.vercel.app//api";
 
 export async function apiFetch(path, options = {}) {
   const token = localStorage.getItem("airindex_token");
