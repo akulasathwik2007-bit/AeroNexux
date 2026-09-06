@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@airindex.in",
+      "password": "$2a$10$3IGnBpqakvkbGG/TeRQBCeDbvvgbovznjeY0DO60DlY2kaXHviWqu",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Public User",
+      "email": "user@airindex.in",
+      "password": "$2a$10$PRlmJy1yyoOfcxnTyiu0heXRaA3Cl5Gk.pJShye4687pwVEGUYFjO",
+      "role": "user"
+    }
+  ],
+  "nextUserId": 3,
+  "priceTrend": [
+    {
+      "month": "Apr",
+      "value": 5200
+    },
+    {
+      "month": "May",
+      "value": 5450
+    },
+    {
+      "month": "Jun",
+      "value": 5700
+    },
+    {
+      "month": "Jul",
+      "value": 5900
+    },
+    {
+      "month": "Aug",
+      "value": 6300
+    },
+    {
+      "month": "Sep",
+      "value": 6842
+    }
+  ],
+  "popularRoutes": [
+    {
+      "from": "DEL",
+      "to": "BOM",
+      "label": "Delhi → Mumbai",
+      "avgFare": 5420,
+      "change": 3.2
+    },
+    {
+      "from": "BOM",
+      "to": "BLR",
+      "label": "Mumbai → Bengaluru",
+      "avgFare": 4380,
+      "change": -2.4
+    },
+    {
+      "from": "DEL",
+      "to": "BLR",
+      "label": "Delhi → Bengaluru",
+      "avgFare": 6120,
+      "change": 5.5
+    },
+    {
+      "from": "HYD",
+      "to": "DEL",
+      "label": "Hyderabad → Delhi",
+      "avgFare": 5740,
+      "change": -1.5
+    }
+  ],
+  "airfareTrend2026": [
+    118,
+    121,
+    123,
+    126,
+    128,
+    131,
+    133,
+    135,
+    138,
+    140,
+    141,
+    142.68
+  ],
+  "routes": [
+    {
+      "id": 1,
+      "from": "DEL",
+      "to": "BOM",
+      "flightsPerWeek": 210,
+      "avgFare": 5420
+    },
+    {
+      "id": 2,
+      "from": "BOM",
+      "to": "BLR",
+      "flightsPerWeek": 180,
+      "avgFare": 4380
+    },
+    {
+      "id": 3,
+      "from": "DEL",
+      "to": "BLR",
+      "flightsPerWeek": 150,
+      "avgFare": 6120
+    },
+    {
+      "id": 4,
+      "from": "HYD",
+      "to": "DEL",
+      "flightsPerWeek": 140,
+      "avgFare": 5740
+    }
+  ],
+  "airports": [
+    {
+      "code": "DEL",
+      "name": "Indira Gandhi Intl",
+      "city": "Delhi"
+    },
+    {
+      "code": "BOM",
+      "name": "Chhatrapati Shivaji Maharaj Intl",
+      "city": "Mumbai"
+    },
+    {
+      "code": "BLR",
+      "name": "Kempegowda Intl",
+      "city": "Bengaluru"
+    },
+    {
+      "code": "HYD",
+      "name": "Rajiv Gandhi Intl",
+      "city": "Hyderabad"
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "title": "Fare spike on DEL–BLR",
+      "severity": "high",
+      "createdAt": "2026-09-05T07:39:20.839Z",
+      "read": false
+    },
+    {
+      "id": 2,
+      "title": "New route added: HYD–GOI",
+      "severity": "low",
+      "createdAt": "2026-09-05T07:39:20.840Z",
+      "read": false
+    }
+  ],
+  "nextAlertId": 3,
+  "flights": [
+    {
+      "id": 1,
+      "airline": "IndiGo",
+      "from": "DEL",
+      "to": "BOM",
+      "fare": 5200,
+      "duration": "2h 10m",
+      "stops": 0
+    },
+    {
+      "id": 2,
+      "airline": "Air India",
+      "from": "DEL",
+      "to": "BOM",
+      "fare": 5800,
+      "duration": "2h 05m",
+      "stops": 0
+    },
+    {
+      "id": 3,
+      "airline": "Vistara",
+      "from": "BOM",
+      "to": "BLR",
+      "fare": 4300,
+      "duration": "1h 40m",
+      "stops": 0
+    },
+    {
+      "id": 4,
+      "airline": "SpiceJet",
+      "from": "DEL",
+      "to": "BLR",
+      "fare": 5900,
+      "duration": "2h 45m",
+      "stops": 1
+    }
+  ]
+}
